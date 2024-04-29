@@ -9,7 +9,7 @@ public class Main {
         String shape = scanner.nextLine().toLowerCase();
         // Оператор if-else для обработки ввода пользователя.
         if (shape.equals("rectangle")) {
-            System.out.println("Введите ширину и высоту прямоугольника:");
+            System.out.println("Введите ширину и высоту прямоугольника:"); // это моя часть кода
             double width = scanner.nextDouble();
             double height = scanner.nextDouble();
             rectangle rect = new rectangle(width, height);
