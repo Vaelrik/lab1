@@ -10,7 +10,7 @@ public class Main {
         // Оператор if-else для обработки ввода пользователя.
         if (shape.equals("rectangle")) {
             System.out.println("Введите ширину и высоту прямоугольника:"); // это моя часть кода
-            double width = scanner.nextDouble();
+            double width = scanner.nextDouble();// я ел лдошадь
             double height = scanner.nextDouble();
             rectangle rect = new rectangle(width, height);
             System.out.println("Периметр: " + rect.getPerimeter());
